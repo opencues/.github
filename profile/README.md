@@ -23,10 +23,29 @@ Platform, model, and provider agnostic. Fully open source.
 
 <br>
 
+## Quickstart
+
+```bash
+npm install -g opencues
+opencues set-key cerebras csk-...     # free tier, lowest latency
+opencues install claude-code          # or: opencode | gemini-cli | chrome | shell
+```
+
+Runs on **Claude Code, OpenCode, Gemini CLI, Chrome, and your shell** — each pins its own fork and never touches your native install.
+
+<br>
+
+## Explore
+
+- **Website** — [opencues.com](https://opencues.com)
+- **Main repo** — [opencues/opencues](https://github.com/opencues/opencues)
+- **Features** — [docs/features](https://github.com/opencues/opencues/tree/master/docs/features) (40+ concepts)
+- **Install guide** — [docs/install.md](https://github.com/opencues/opencues/blob/master/docs/install.md)
+- **Open standard** — [the Cues spec](https://github.com/opencues/opencues/tree/master/spec)
+- **FAQ** — [opencues.com/faqs](https://opencues.com/faqs)
+
+<br>
+
 <div align="center">
-
-### [→ opencues.com](https://opencues.com)
-
-<sub>Apache-2.0 · an open standard for inline AI · coming soon to npm</sub>
-
+<sub>Apache-2.0 · an open standard for inline AI</sub>
 </div>
