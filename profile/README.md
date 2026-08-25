@@ -1,5 +1,13 @@
 <div align="center">
-  <a href="https://opencues.com"><img width="600" alt="OpenCues" src="https://cdn.jsdelivr.net/gh/opencues/opencues@43ac7ab68de968a183aa0340593aac926f26587a/assets/Hero.svg"></a>
+  <!-- Hero is theme-aware. It must be a <picture> with two flat files, not a
+       single SVG carrying @media (prefers-color-scheme: dark): Safari does not
+       propagate the page colour scheme into an SVG loaded through <img>, so the
+       in-file query never matches there (WebKit bug 199134). Pin tracks
+       opencues/opencues assets/. -->
+  <a href="https://opencues.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/opencues/opencues@e440d5098423d496ea4ff4007db04a048b3898bb/assets/Hero-dark.svg">
+    <img width="600" alt="OpenCues" src="https://cdn.jsdelivr.net/gh/opencues/opencues@e440d5098423d496ea4ff4007db04a048b3898bb/assets/Hero-light.svg">
+  </picture></a>
 </div>
 
 <br>
